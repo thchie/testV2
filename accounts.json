@@ -1,0 +1,47 @@
+[
+  {
+    "$id": "5",
+    "$type": "SourceTree.Api.Host.Identity.Model.IdentityAccount, SourceTree.Api.Host.Identity",
+    "Authenticate": true,
+    "HostInstance": {
+      "$id": "6",
+      "$type": "SourceTree.Host.Atlassianaccount.AtlassianAccountInstance, SourceTree.Host.AtlassianAccount",
+      "Host": {
+        "$id": "7",
+        "$type": "SourceTree.Host.Atlassianaccount.AtlassianAccountHost, SourceTree.Host.AtlassianAccount",
+        "Id": "atlassian account"
+      },
+      "BaseUrl": "https://id.atlassian.com/"
+    },
+    "Credentials": {
+      "$id": "8",
+      "$type": "SourceTree.Model.BasicAuthCredentials, SourceTree.Api.Account",
+      "Username": "hueychie@gmail.com",
+      "Email": null
+    },
+    "IsDefault": false
+  },
+  {
+    "$id": "9",
+    "$type": "SourceTree.Model.ScmAccount, SourceTree.Api.Host.Scm",
+    "Authenticate": true,
+    "HostInstance": {
+      "$id": "10",
+      "$type": "SourceTree.Host.GitHub.GitHubInstance, SourceTree.Host.GitHub",
+      "Host": {
+        "$id": "11",
+        "$type": "SourceTree.Host.GitHub.GitHubHost, SourceTree.Host.GitHub",
+        "Id": "github"
+      },
+      "BaseUrl": "https://github.com/",
+      "Protocol": "HTTPS"
+    },
+    "Credentials": {
+      "$id": "12",
+      "$type": "SourceTree.Model.BasicAuthCredentials, SourceTree.Api.Account",
+      "Username": "website_developer",
+      "Email": null
+    },
+    "IsDefault": true
+  }
+]
